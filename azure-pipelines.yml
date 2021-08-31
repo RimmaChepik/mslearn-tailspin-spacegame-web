@@ -1,4 +1,8 @@
 trigger:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: 
 - '*'
 
 pool:
